@@ -49,7 +49,7 @@ app.post("/bid-request", function(request, response){
     });
 });
 
-const server = app.listen(8000);
+const server = app.listen(process.env.port);
 server.on('connection', function(socket){
    console.log("A new connection was made");
    socket.setTimeout(30 * 1000);
