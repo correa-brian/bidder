@@ -6,10 +6,15 @@ const fs = require("fs");
 app.use(parser.json());
 
 app.get("/", function(request, response){
-    fs.readFile("../../test.html", function(err, html){
-        response.writeHeader(200, {"Content-Type": "text/html"});  
-        response.write(html);  
-        response.end();
+    // fs.readFile("../../test.html", function(err, html){
+    //     response.writeHeader(200, {"Content-Type": "text/html"});  
+    //     response.write(html);  
+    //     response.end();
+    // });
+    response.setHeader("Content-Type", "application/json");
+    return response.json({
+        "status": true,
+        "message": "success"
     });
 });
 
