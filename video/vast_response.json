@@ -1,0 +1,28 @@
+{
+    "id": data.id,
+    "cur": "USD",
+    "seatbid": [
+        {
+            "bid": [
+                {
+                    "price": 20,
+                    "id": "16-73859100_87482851441150254970-1",
+                    "iurl": "https://googleads.g.doubleclick.net/pagead/imgad?id=CICAgKDb4MXvQhCwCRjzBDIIjOU45V1a8VU",
+                    "adomain": [
+                        "toyota.com"
+                    ],
+                    "ext": {
+                        "agencyName": "Yango AU c/o Fivestones AUNZ - DV360 - APAC",
+                        "agencyId": "346150",
+                        "agency_id": "346150",
+                        "agency_name": "Yango AU c/o Fivestones AUNZ - DV360 - APAC"
+                    },
+                    "crid": "dnkftmtr",
+                    "impid": "1",
+                    "adm": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><VAST version=\"4.0\"><Ad id=\"158288934\"><Wrapper><AdSystem version=\"4.0\">adnxs</AdSystem><VASTAdTagURI><![CDATA[https://sin1-ib.adnxs.com/ab?an_audit=0&referrer=https%3A%2F%2Fwww.littlethings.com%2Fchip-joanna-gaines-jennifer-lopez-alex-rodriguez-waco%2F%3Futm_source%3DLTcom%26utm_medium%3DFacebook%26utm_campaign%3Dcelebrity%26utm_content%3D2C&e=wqT_3QLQC_QgAdAFAAADANYABQEI55zm5gUQ9dnv-aeft8M3GJu79Zz0id2-Zyo2CTBkdavnFCVAEfqqpjUX0SNAGQAAAOB6lEJAIaOOM_IebCpAKUAwR4_fGyxAMQAAAGBmZiBAMOn62AY4ogpA1hVIAlCmmL1LWKGSI2AAaKnBhQF446MFgAEBigEDVVNEkgEDVVNEmAEBoAEBqAEBsAEAuAEDwAEFyAEC0AEJ2AEA4AEA8AEAigKUAXVmKCdhJywgMzEzMzM4NSwgMTU1Nzc2MTYzOSk7dWYoJ2knLCAxMjE4NDQwLCAxNTU3NzYxNjM5KTt1ZignZycsIDc5NjAxNzMsIDE1NTc3NjE2MzkpO3VmKCdjJywgMjk1MTYzNjUsIDE1NTc3NjEVOwRyJwEUGDgyODg5MzQBCxk99CoBkgKJBCF3WE5BQlFpOHhJa09FS2FZdlVzWUFDQ2hraU13QURnQVFBQkkxaFZRNmZyWUJsZ0FZSXNEYUFCd0huajRESUFCVUlnQi1BeVFBUUdZQVFHZ0FRR29BUUd3QVFDNUFadm9VNEdXRkRSQXdRRXVIMWlMM3hzc1FNa0JBQUFBQUFBQThEX1pBYzVUSFhJejNQWV80QUdJcjByMUFRQUFUa0tBQWdDSUFvVHJFWWdDaGVzUmlBS0g2eEdJQW9ickVZZ0NvS2dyaUFLaHFDdUlBcUtvSzRnQ282Z3JpQUtrcUN1SUFxV29LNGdDbjVBd2lBSzh3cG9JaUFLTmk3Y0lrQUlCa0FJQmtBSUJrQUlCa0FJQmtBSUJrQUlCa0FJQmtBSUJrQUlCa0EZHCBtQUlBb0FJQnHKBAAIdFFJBfYAdg0I4HdBSlF5QUw0RE5BQ1VOZ0MtQXpnQWdEb0FnRDRBZ0NBQXdHWUF3R2lBdzRJd2Z2X0JSQUNHQUl0QQFGREtJRERnakItXzhGRUFzWUFpMAEWEEFxQVBOIczodWdNSlUwbE9NVG96TlRVNDRBUGZDNEFFaklPUkFvZ0U0SVdSQXBBRUFKZ0VBUS4umgJhIXR4VGUyd2kyDAIob1pJaklBQW9BREUFYBhBTUJKUURvMlwAGFFOOExTYzU1xDRVZXhSdUI2RjY5RV9XUQk3AQH0GQLYAsYC4AKon0vqAp4BaHR0cHM6Ly93d3cubGl0dGxldGhpbmdzLmNvbS9jaGlwLWpvYW5uYS1nYWluZXMtamVubmlmZXItbG9wZXotYWxleC1yb2RyaWd1ZXotd2Fjby8_dXRtX3NvdXJjZT1MVGNvbSZ1dG1fbWVkaXVtPUZhY2Vib29rJnV0bV9jYW1wYWlnbj1jZWxlYnJpdHkmdXRtX2NvbnRlbnQ9MkPyAhMKD0NVU1RPTV9NT0RFTF9JRBIA8gIaChZDVVNUT01fTU9ERUxfTEVBRl9OQU1FEgDyAh4KGkNVU1RPTV9NT0RFTF9MQVNUX01PRElGSUVEEgCAAwCIAwGQAwCYAxSgAwGqAwDAA-CoAcgDANgDltNR4AMA6AMA-AMDgAQAkgQJL29wZW5ydGIymAQAogQNMTc1LjMyLjY0LjE4NKgE0OsTsgQSCAAQBBisAiCoASgBKAIwADgEuAQAwAQAyAQA0gQOMjc3NCNTSU4xOjM1NTjaBAIIAeAEAPAEppi9S4gFAZgFAKAF____________AaoFFTEyNTAwOTUwMzc3MzY1ODg0MjYxMMAFAMkFAAAAAAAA8D_SBQkJAAAAAAAAAADYBQHgBQHwBYerAfoFBAgAEACQBgGYBgC4BgDBBgAAAAAAAPA_yAYA2gYWChAAAAAAAAAAAAAAAAAAAAAAEAAYAOAGBPIGAggAgAcB&s=86985d8eef101e353ab755283c6cc77ff1e3eb3b&pp=${AUCTION_PRICE}]]></VASTAdTagURI><Impression><![CDATA[https://ib.adnxs.com/nop]]></Impression><Creatives><Creative adID=\"158288934\"><Linear></Linear></Creative></Creatives></Wrapper></Ad></VAST>"
+            }
+            ],
+            "seat": "1505"
+        }
+    ]
+}
