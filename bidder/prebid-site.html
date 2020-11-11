@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+        <script async src="https://acdn.adnxs.com/prebid/not-for-prod/1/prebid.js"></script>
+        <script>
+            var div_1_sizes = [[300, 250], [728, 90]];
+            var div_2_sizes = [[728, 90],[970, 250]];
+            var PREBID_TIMEOUT = 1000;
+            var FAILSAFE_TIMEOUT = 3000;
+
+            var adUnits = [
+                {
+                    code: '/19968336/header-bid-tag-0',
+                    mediaTypes: {
+                        banner: {
+                            sizes: div_1_sizes
+                        }
+                    },
+                    bids: [{
+                        bidder: 'triplelift',
+                        params: {
+                            inventoryCode: "weddinggawker"
+                        }
+                    }]
+                },
+                {
+                    code: '/19968336/header-bid-tag-1',
+                    mediaTypes: {
+                        banner: {
+                            sizes: div_2_sizes
+                        }
+                    },
+                    bids: [{
+                        bidder: 'triplelift',
+                        params: {
+                            inventoryCode: "stylegawker"
+                        }
+                    }]
+                }
+            ];
+
+            // prod placements: [brian_test_1, makersalley_main] 
+            // sand placements: [foodgawker, makersalley_wide_test]
+
+            // ======== DO NOT EDIT BELOW THIS LINE =========== //
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            googletag.cmd.push(function() {
+                googletag.pubads().disableInitialLoad();
+            });
+
+            var pbjs = pbjs || {};
+            pbjs.que = pbjs.que || [];
+
+            pbjs.que.push(function() {
+                pbjs.addAdUnits(adUnits);
+                pbjs.requestBids({
+                    bidsBackHandler: initAdserver,
+                    timeout: PREBID_TIMEOUT
+                });
+            });
+
+            function initAdserver() {
+                if (pbjs.initAdserverSet) return;
+                pbjs.initAdserverSet = true;
+                googletag.cmd.push(function() {
+                    pbjs.que.push(function() {
+                        pbjs.setTargetingForGPTAsync();
+                        googletag.pubads().refresh();
+                    });
+                });
+            }
+            // in case PBJS doesn't load
+            setTimeout(function() {
+                initAdserver();
+            }, FAILSAFE_TIMEOUT);
+
+            googletag.cmd.push(function() {
+                googletag.defineSlot('/19968336/header-bid-tag-0', div_1_sizes, 'div-1').addService(googletag.pubads());
+                googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+            });
+            googletag.cmd.push(function() {
+                googletag.defineSlot('/19968336/header-bid-tag-1', div_1_sizes, 'div-2').addService(googletag.pubads());
+                googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+            });
+        </script>
+    </head>
+    <body>
+        <h2>Basic Prebid.js Example</h2>
+        <h5>Div-1</h5>
+        <div id='div-1'>
+            <script type='text/javascript'>
+                googletag.cmd.push(function() {
+                    googletag.display('div-1');
+                });
+
+            </script>
+        </div>
+
+        <br>
+
+        <h5>Div-2</h5>
+        <div id='div-2'>
+            <script type='text/javascript'>
+                googletag.cmd.push(function() {
+                    googletag.display('div-2');
+                });
+
+            </script>
+        </div>
+        <script>
+            (function() {
+                try {
+                    console.log("try");
+                    var ttj = document.createElement('script');
+                    ttj.src = "https://ib.3lift.com/ttj?inv_code=%%inv_code%%";
+                    var body = document.getElementsByTagName('body');
+                    body[0].appendChild(p);
+                } catch (error) {
+                    console.log("errorrr: " + error);
+                    var p = document.createElement('IMG'); 
+                    var ref = encodeURIComponent(document.URL); 
+                    var src = '//eb2.3lift.com/sce?block=debug'; 
+                    src += '&ref=' + ref; 
+                    src += '&e=' + encodeURIComponent(error);
+                    p.src = src;
+                }
+            })();
+        </script>
+        <script src="//ib.3lift.net/ttj?inv_code=weddinggawkerblahblah" data-auction-response-id="693585" onerror="function(error) { console.log(error); }()" onload="document.createElement('IMG').src='//eb2.3lift.com/dyn?long1=766575&&long2=1&long3=61&string186642592939476563240&string2=null&string3=BT_CHROME';"></script>
+    </body>
+</html>
