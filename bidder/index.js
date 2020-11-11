@@ -11,7 +11,6 @@ app.use(parser.json());
 
 // status page
 app.get("/", function(reuest, response) {
-    console.log(JSON.stringify(creatives));
     response.setHeader("Content-Type", "application/json");
     return response.json({
         "status": true,
