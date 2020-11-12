@@ -48,7 +48,7 @@ app.post("/banner", function(request, response){
                             "impid": "1",
                             "price": 20,
                             "crid": "dnkftmtr", 
-                            "adm": bannerCreatives[randomNum],
+                            "adm": bannerCreatives.creatives[randomNum],
                             "adomain": [
                                 "apple.com"
                             ]
@@ -80,7 +80,7 @@ app.post("/native", function(request, response) {
                             "price": 20,
                             "crid": "bc-bidtellect-test.4", 
                             "nurl": "https://google.com",
-                            "adm": nativeCreatives[randomNum],
+                            "adm": nativeCreatives.creatives[randomNum],
                             "adomain": [
                                 "apple.com"
                             ]
@@ -113,7 +113,7 @@ app.post("/instream", function(request, response) {
                             "impid": "1",
                             "price": 10.00,
                             "crid": "dnkftmtr", 
-                            "adm": videoCreatives[randomNum],
+                            "adm": videoCreatives.creatives[randomNum],
                             "adomain": [
                                 "apple.com"
                             ]
